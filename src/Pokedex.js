@@ -6,7 +6,11 @@ import './pokedex.css';
 class Pokedex extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {pokemonIndex: 0, filteredType: 'all'};
+    
+    this.state = {
+      pokemonIndex: 0,
+      filteredType: 'all'
+    };
   }
 
   filterPokemons(filteredType) {
